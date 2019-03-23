@@ -62,6 +62,7 @@ section {
     float: right;
     position: relative;
     top:40px;
+    right:55px;
 }
 
 .topnav li {
@@ -69,6 +70,10 @@ section {
     border-right: 1px solid #0000000e;
     padding: 0px 10px;
     text-align: center;
+}
+
+.icon {
+    border: none;
 }
 
 .topnav a {
@@ -79,9 +84,11 @@ section {
 .topnav li:last-child {
     border-right: none;
 }
+
 .topnav li a:hover {
     color: #00403C;
 }
+
 
 #navName {
     float: left;
@@ -138,6 +145,12 @@ h1 {
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 p:last-child {
