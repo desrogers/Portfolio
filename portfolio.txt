@@ -1,13 +1,12 @@
-- sticky footer(position:fixed)  https://css-tricks.com/couple-takes-sticky-footer/ @done
-- update `nav` and `content` postioning @done
-- add reset.css @done
-- submit deployed link and the source file links @done
+- [ ]  sticky footer(position:fixed)  https://css- [ ] tricks.com/couple- [ ] takes- [ ] sticky- [ ] footer/ @done
+- [ ]  update `nav` and `content` postioning @done
+- [ ]  add reset.css @done
+- [ ]  submit deployed link and the source file links @done
 
 porfolio.html:
-- img contrain same size @done
-- img border issue
-
-- [ ] html background:url image
-
 - [ ] add bootstrap
+- [ ] img contrain same size @done
+- [ ] img border issue
+- [ ] html background:url image
 - [ ] one page
+
