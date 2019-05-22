@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
     img {
@@ -22,85 +27,197 @@
 </head>
 
 <body>
-  <header id="header">
-    <div class="container">
-      <a href="index.html" id="navName">D. Rogers</a>
-      <nav>
-        <ul class="topnav">
+  
+  <nav class="navbar navbar-expand-sm navbar-white bg-white" id="header">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
           <li><a href="https://www.linkedin.com/in/desrogers" target="_blank"><i class="fab fa-linkedin"></i></a></li>
           <li><a href="https://github.com/desrogers" target="_blank"><i class="fab fa-github-square"></i></a></li>
           <li><a href="https://www.twitter.com/desrogers" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
           <li><a href="mailto:desmondrogers2@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
+      </div>
+  </nav>
 
   <div class="container">
-    <section>
-      <div class="title">
-        <h1>About Me</h1>
+    <div class="row">
+      <div class="col-sm-12">
+        
+        <div class="bg-light">
+          <div class="row">
+            <div class="col-sm-12 title">
+              <h1>Desmond Rogers</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 content">
+              <img src="./assets/images/DSC_0089.jpg" height="200" width="200" alt="Photo">
+              <p>Hello! I'm <a href="https://www.twitter.com/desrogers_" target="_blank">@desrogers_</a>, a web
+                developer
+                and U.S Navy veteran with 6 years experience as a system administrator and an equivalent amount
+                as a small business owner and business manager.
+              </p>
+              <p>
+                Currently I'm attending the Full-Stack Flex Coding Bootcamp at UT Austin getting a firm foundation
+                in frontend and backend web development technologies.
+              </p>
+              <p>
+                Before the Coding Bootcamp, I was a Managing Partner at Quality x Quantity, a live sound company in
+                Houston,
+                where we provided sound reinforcement and rented equipment to clients. My side projects include being a
+                resident tech guy at Heist Agency, a talent agency/digital marketing firm in Houston.
+              </p>
+              <p>
+                I am a quick learner who’s calm under pressure and able to perform in multiple roles at once.
+                I’m passionate about taking on new challenges and using technology to solve
+                problems that create efficient systems or improves the lives of others. Excited about developing
+                expertise
+                across the entire web development stack or leveraging my experiend to contribute to new and innovative
+                projects.
+              </p>
+              </br>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div>
 
-      <div class="content">
-        <img src="./assets/images/DSC_0089.jpg" height="200" width="200" alt="Photo">
-        <p>Hello! I'm <a href="https://www.twitter.com/desrogers_" target="_blank">@desrogers_</a>, a web developer
-          and U.S Navy veteran with 6 years experience as a system administrator and an equivalent amount
-          as a small business owner and business manager.
-        </p>
-        <p>
-          Currently I'm attending the Full-Stack Flex Coding Bootcamp at UT Austin getting a firm foundation 
-          in frontend and backend web development technologies.
-        </p>
-        <p>
-           Before the Coding Bootcamp, I was a Managing Partner at Quality x Quantity, a live sound company in Houston, 
-           where we provided sound reinforcement and rented equipment to clients. My side projects include being a 
-           resident tech guy at Heist Agency, a talent agency/digital marketing firm in Houston.
-        </p>
-        <p>
-          I am a quick learner who’s calm under pressure and able to perform in multiple roles at once. 
-          I’m passionate about taking on new challenges and using technology to solve
-          problems that create efficient systems or improves the lives of others. Excited about developing expertise
-          across the entire web development stack or leveraging my experiend to contribute to new and innovative projects. 
-        </p>
-        </br>
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title">
+              <h1>Portfolio</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Crystal Collector</h5>
+                    <p class="card-text">A game where the user tries to match the value of crystal to another number
+                      given randomly.</p>
+                    <a href="https://github.com/desrogers/Crystal_Collector/" class="card-link">Github Repo</a>
+                    <a href="https://desrogers.github.io/Crystal_Collector" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Film Trivia Quiz</h5>
+                    <p class="card-text">A timed multiple-choice trivia game.</p>
+                    <a href="https://github.com/desrogers/TriviaGame" class="card-link">Github Repo</a>
+                    <a href="https://desrogers.github.io/TriviaGame" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">skyQ</h5>
+                    <p class="card-text">Built with location based star charts, a tracker that shows the current
+                      position of
+                      the ISS, and an accurate snapshot of weather conditions</p>
+                    <a href="https://github.com/desrogers/skyQ" class="card-link">Github Repo</a>
+                    <a href="https://desrogers.github.io/skyQ" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Giftastic</h5>
+                    <p class="card-text">Search the GIPHY API data with a click of a button.</p>
+                    <a href="https://github.com/desrogers/Giftastic_App" class="card-link">Github Repo</a>
+                    <a href="https://desrogers.github.io/Giftastic_App" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Bamazon</h5>
+                    <p class="card-text">A CLI storefront app. Inspired by Amazon, built with node</p>
+                    <a href="https://github.com/desrogers/Bamazon" class="card-link">Github Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">LIRI</h5>
+                    <p class="card-text">A node app that gets info for concerts, songs, movies. Inspired by SIRI.</p>
+                    <a href="https://github.com/desrogers/liri" class="card-link">Github Repo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Friend Finder</h5>
+                    <p class="card-text">A compatibility-based "Friend Finder" application.</p>
+                    <a href="https://github.com/desrogers/friendfinder" class="card-link">Github Repo</a>
+                    <a href="https://friend-finder-dzr.herokuapp.com/" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Brewser</h5>
+                    <p class="card-text">A simple web app that helps users keep track of brews they have and haven't
+                      tried, whether it's coffee, tea, or beer.</p>
+                    <a href="https://github.com/desrogers/brewser" class="card-link">Github Repo</a>
+                    <a href="https://brew-dr.herokuapp.com/" class="card-link">Deployed</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p>
+              If you'd like to find out more about my experience and work history, check out my resume
+              <a href="https://drive.google.com/open?id=1mJ-SwiwXVo2qIH2pA3pY8S7zxw3HWdQM">here</a>.
+            </p>
+          </div>
+        </div>
 
       </div>
+    </div>
 
-      <div><br></div>
-
-      <div class="title">
-        <h1>Portfolio</h1>
-      </div <div>
-      <ul>
-        <li>Crystal Collector! <a href="https://github.com/desrogers/Crystal_Collector/" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Crystal_Collector" target="_blank">Deployed Page</a></li>
-        <li>Trivia Game <a href="https://github.com/desrogers/TriviaGame" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Crystal_Collector/" target="_blank">Deployed Page</a></li>
-        <li>sky Q <a href="https://github.com/Andosbor/project_number_one" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/project_number_one/" target="_blank">Deployed Page</a></li>
-        <li>Giftastic App <a href="https://github.com/desrogers/Giftastic_App" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Giftastic_App/" target="_blank">Deployed Page</a></li>
-        <li>LIRI <a href="https://github.com/desrogers/liri" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Giftastic_App/" target="_blank">Deployed Page</a></li>
-        <li>Bamazon <a href="https://github.com/desrogers/Bamazon" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Giftastic_App/" target="_blank">Deployed Page</a></li>
-        <li>FriendFinder <a href="https://github.com/desrogers/friendfinder" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Giftastic_App/" target="_blank">Deployed Page</a></li>
-        <li>Brewser <a href="https://github.com/desrogers/brewser" target="_blank">Github</a> | <a
-            href="https://desrogers.github.io/Giftastic_App/" target="_blank">Deployed Page</a></li>
-      </ul>
-      <p>
-        If you'd like to find out more about my experience and work history, check out my resume
-        <a href="https://drive.google.com/open?id=1mJ-SwiwXVo2qIH2pA3pY8S7zxw3HWdQM">here</a>.
-      </p>
-    </section>
   </div>
 
   <footer class="footer">
     <div class="container">Copyright &#169;</div>
 
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/usm/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
 </body>
 
 
