@@ -1,9 +1,3 @@
-body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background: url("../images/dust_scratches.png") fixed center center;
-    line-height: 34px;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -17,124 +11,56 @@ body {
   clear: both;
 }
 
-/* header */
-
-/* footer */
-footer {
-    padding: 10px 0;
-    clear: both;
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    margin-top: 0;
-    color: #cccccc;
-    font-size: 8pt;
-    text-align: center;
-    line-height: 20px;
-    /* padding-bottom: 15px; */
-    margin-top:10px;
-}
-
-
 
 /* main */
-.title {
-    border-bottom: 3px solid #dddddd;
-    color: #4aaaa5;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    top: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.content {
-    margin-top: 10px;
-    line-height: 200%;
+.brand-statement {
     color: #777777;
 }
 
-h1 {
-    font-size: xx-large;
-    font-weight: bold;
-    margin-bottom: 30px;
+/* card images same height/width */
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
-h2 {
-    font-size: large;
-    font-weight: bold;
-    margin-bottom: 10px;
+h1, .h1 {
+    font-size: 4.2rem;
+    margin-top: 1.8rem;
 }
 
-p:last-child {
-    margin-bottom: 0;
+h2, .h2 {
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+i.fab, i.fas {
+    font-size: 1.5em;
+    margin-right: .5rem;
+}
+
+i.fa-file-download {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+p#head-symbol {
+    color: darkgoldenrod;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 /* media queries */
-@media only screen and (max-width: 980px) {
-    .container {
-        width: 100%;
-        padding: 0 20px;
+@media (min-width: 768px) {
+    .title {
+      margin-top: 4rem;
     }
-
-    .container section {
-        width: 100%;
+    .projects-wrapper {
+        padding: 0rem;
     }
-
-    /* nav needs to move left to fill 100% */
-    /* content needs to be compressed into smaller box */
-}
-
-@media only screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .container section {
-        width: 100%;
-    }
-    /* copy content width from 980px */
-}
-
-@media only screen and (max-width: 640px) {
-    header {
-        position: static;
-    }
-
-    .container {
-        width: 100%;
-        padding: 0 20px;
-    }
-    
-    .container section {
-        width: 100%;
-    }
-
-    #navName {
-        width:100%;
-        clear:both;
-        overflow: auto;
-        height: 50px;
-        line-height: 50px;
-    }
-
-    .topnav {
-        display:block;
-        float: left;
-        position: static;
-    }
-
-    .topnav li {
-        text-align:center;
-        justify-content: center;
-     }
-
-    img {
-        float: right;
-    }
-    
-    /* navbar name and links needs to fill 100% width */
-    /* header content needs to be centered */
-    /* content needs to float or collapse to vertical */
-    /* img needs to center and float on top of p content */
 }
