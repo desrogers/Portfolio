@@ -2,4 +2,4 @@
 
 [Deployed Version][1]
 
-[1]: https://desrogers.github.io/Responsive-Portfolio/
+[1]: https://dezrogers.github.io/portfolio/
