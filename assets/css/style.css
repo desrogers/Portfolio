@@ -55,11 +55,23 @@ p#head-symbol {
 }
 
 /* media queries */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .title {
-      margin-top: 4rem;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+      margin-top: 3rem;
     }
     .projects-wrapper {
         padding: 0rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        margin-top: 3rem;
     }
 }
