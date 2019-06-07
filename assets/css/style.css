@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* general */
-.clearfix:after { 
+.clearfix:after {
   content: "";
   visibility: hidden;
   display: block;
@@ -13,65 +13,82 @@
 
 /* main */
 .brand-statement {
-    color: #777777;
+  color: #777777;
 }
 
-h1, .h1 {
-    font-size: 4.2rem;
-    margin-top: 1.8rem;
+h1,
+.h1 {
+  font-size: 4.2rem;
+  margin-top: 1.8rem;
 }
 
-h2, .h2 {
-    font-size: 2.828rem;
-    line-height: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+h2,
+.h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
-i.fab, 
+i.fab,
 i.fas {
-    font-size: 1.5em;
-    margin-right: .5rem;
+  font-size: 1.5em;
+  margin-right: 0.5rem;
 }
 
-div.card i.fab, 
+div.card i.fab,
 div.card i.fas {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
-
 
 i.fa-file-download {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 p {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 p#head-symbol {
-    color: darkgoldenrod;
-    font-weight: 900;
-    font-size: 1.5rem;
+  color: darkgoldenrod;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
-/* media queries */
-@media (min-width: 1024px) {
-    .title {
-        margin-top: 5rem;
-    }
+/* MEDIA QUERIES */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .title {
+    margin-top: 3rem;
+  }
 }
 
-@media (max-width: 768px) {
-    .title {
-      margin-top: 3rem;
-    }
-    .projects-wrapper {
-        padding: 0rem;
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .title {
+    margin-top: 3rem;
+  }
 }
 
-@media (max-width: 375px) {
-    .title {
-        margin-top: 3rem;
-    }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .title {
+    margin-top: 3rem;
+  }
+  #projects-wrapper {
+    margin-top: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .title {
+    margin-top: 3rem;
+  }
+  #projects-wrapper {
+    margin-top: 2rem;
+  }
 }
