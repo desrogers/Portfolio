@@ -40,12 +40,14 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav ml-auto justify-content-center">
+                <ul class="navbar-nav mx-auto justify-content-center">
                   <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link font-weight-bold" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link font-weight-bold" href="#projects"
+                      >Projects</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -91,11 +93,53 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-sm-12">
+                <div class="p-2 wrapper" id="about">
+                  <div class="title">
+                    <h2>About Me</h2>
+                  </div>
+                  <div>
+                    <p class="lead">
+                      Full Stack Web Developer and U.S Navy veteran with 6 years
+                      experience as a system administrator and an equivalent
+                      amount as a small business owner and consultant.
+                    </p>
+                    <p>
+                      I’ve always been interested in programming, but I never
+                      really had the time to learn enough to know whether a
+                      career as a developer was for me. Until I did, when I
+                      completed the Full Stack Flex Coding Bootcamp at The
+                      University of Texas at Austin. There I realized, while
+                      becoming pretty good with Javascript and the other parts
+                      of the MERN stack, that I’d love to continue learning,
+                      making things and solving problems, even if it meant I
+                      could only do it on my off time.
+                    </p>
+                    <p>
+                      So I'm excited about developing expertise across the
+                      entire web development stack, and also learning some
+                      DevOps skills to leverage my experience as a System
+                      Administrator so I can contribute to exciting and
+                      innovative projects.
+                    </p>
+                    <p>
+                      I think the skills I have and the roles I’ve had proves
+                      that I’m self-motivated, I’m great at solving problems, I
+                      can understand difficult subjects quickly, I can
+                      communicate well with people on both the business and
+                      technical side of things, and I can lead as well as
+                      follow.
+                    </p>
+                  </div>
+                </div>
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="text-center mb-5">
+                    <div class="text-center" id="resume">
                       <a
-                        class="btn btn-outline-primary"
+                        class="text-decoration-none"
                         href="https://docs.google.com/document/d/1AVQ3pbXqYFPs3KGyc9vCpUDdNT9q-9hphRsL3Erc1V4/edit?usp=sharing"
                         ><i class="fas fa-file-download"></i>Resume</a
                       >
@@ -103,248 +147,247 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="p-2 wrapper" id="projects">
+                  <div class="title">
+                    <h2>Projects</h2>
+                  </div>
 
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="p-2" id="projects-wrapper">
-                    <div class="title">
-                      <h2><a href="projects">Projects</a></h2>
+                  <div class="card text-center mb-4">
+                    <img
+                      src="https://i.gyazo.com/7355eaebee43881437ae8eea5366566e.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">SkillWorx</h5>
+                      <h6 class="text-muted">
+                        Mongo &middot; Node &middot; Express &middot; Heroku
+                        &middot; React
+                      </h6>
+                      <p class="card-text">
+                        App to help lost pets find their way home.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/skillworx"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://skillworx.herokuapp.com/"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
+                  </div>
 
-                    <div class="card text-center mb-4">
-                      <img
-                        src="https://i.gyazo.com/7355eaebee43881437ae8eea5366566e.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">SkillWorx</h5>
-                        <h6 class="text-muted">
-                          Mongo &middot; Node &middot; Express &middot; Heroku
-                          &middot; React
-                        </h6>
-                        <p class="card-text">
-                          App to help lost pets find their way home.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/skillworx"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://skillworx.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="https://i.gyazo.com/7086f109fe8362747801bd8cef6bf3e9.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">StrayTX</h5>
+                      <h6 class="text-muted">
+                        MySQL &middot; Node &middot; Express &middot; Heroku
+                      </h6>
+                      <p class="card-text">
+                        App to help lost pets find their way home.
+                      </p>
+                      <a
+                        href="https://github.com/derekgeorg/project2"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://straytx.herokuapp.com/"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
+                  </div>
 
-                    <div class="card text-center mb-3">
-                      <img
-                        src="https://i.gyazo.com/7086f109fe8362747801bd8cef6bf3e9.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">StrayTX</h5>
-                        <h6 class="text-muted">
-                          MySQL &middot; Node &middot; Express &middot; Heroku
-                        </h6>
-                        <p class="card-text">
-                          App to help lost pets find their way home.
-                        </p>
-                        <a
-                          href="https://github.com/derekgeorg/project2"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://straytx.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  <div class="card mx-auto mb-3">
+                    <img
+                      src="./assets/images/f557dd3732e4cd2ea2f2bc371a6616ad.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Brewser</h5>
+                      <h6 class="text-muted">
+                        MySQL &middot; Node &middot; Express &middot; Handlebars
+                        &middot; Heroku
+                      </h6>
+                      <p class="card-text">
+                        List app to track brews you want to try.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/brewser"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://brew-dr.herokuapp.com/"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
-
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/f557dd3732e4cd2ea2f2bc371a6616ad.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Brewser</h5>
-                        <h6 class="text-muted">
-                          MySQL &middot; Node &middot; Express &middot;
-                          Handlebars &middot; Heroku
-                        </h6>
-                        <p class="card-text">
-                          List app to track brews you want to try.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/brewser"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://brew-dr.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/c3d0eb5c1b02f2ec1aef48285219bf94.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">skyQ</h5>
+                      <h6 class="text-muted">JavaScript &middot; APIs</h6>
+                      <p class="card-text">
+                        Web app that displays information for amateur
+                        stargazers.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/skyQ"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://dezrogers.github.io/skyQ"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/c3d0eb5c1b02f2ec1aef48285219bf94.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">skyQ</h5>
-                        <h6 class="text-muted">JavaScript &middot; APIs</h6>
-                        <p class="card-text">
-                          Web app that displays information for amateur
-                          stargazers.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/skyQ"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://dezrogers.github.io/skyQ"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/joshua-sortino-215039-unsplash.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">LIRI</h5>
+                      <h6 class="text-muted">Node.js</h6>
+                      <p class="card-text">
+                        A node app that gets info for concerts, songs, movies.
+                        Inspired by SIRI.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/liri"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
                     </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/joshua-sortino-215039-unsplash.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">LIRI</h5>
-                        <h6 class="text-muted">Node.js</h6>
-                        <p class="card-text">
-                          A node app that gets info for concerts, songs, movies.
-                          Inspired by SIRI.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/liri"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/fabio-bracht-694774-unsplash.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Bamazon</h5>
+                      <h6 class="text-muted">Node.js &middot; MySQL</h6>
+                      <p class="card-text">
+                        A CLI storefront app inspired by Amazon.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/Bamazon"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
                     </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/fabio-bracht-694774-unsplash.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Bamazon</h5>
-                        <h6 class="text-muted">Node.js &middot; MySQL</h6>
-                        <p class="card-text">
-                          A CLI storefront app inspired by Amazon.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/Bamazon"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/friends_1191883.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Friend Finder</h5>
+                      <h6 class="text-muted">Node.js &middot; Express</h6>
+                      <p class="card-text">
+                        A compatibility-based "Friend Finder" app.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/friendfinder"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://friend-finder-dzr.herokuapp.com/"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/friends_1191883.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Friend Finder</h5>
-                        <h6 class="text-muted">Node.js &middot; Express</h6>
-                        <p class="card-text">
-                          A compatibility-based "Friend Finder" app.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/friendfinder"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://friend-finder-dzr.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/e8cb7b5558a03bbda7277a022478159e.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Film Trivia Quiz</h5>
+                      <h6 class="text-muted">JavaScript &middot; jQuery</h6>
+                      <p class="card-text">
+                        A timed multiple-choice trivia game.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/TriviaGame"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://dezrogers.github.io/TriviaGame"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/e8cb7b5558a03bbda7277a022478159e.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Film Trivia Quiz</h5>
-                        <h6 class="text-muted">JavaScript &middot; jQuery</h6>
-                        <p class="card-text">
-                          A timed multiple-choice trivia game.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/TriviaGame"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://dezrogers.github.io/TriviaGame"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/c8b40da1ddc436670cf49c8fab04fff1.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Crystal Collector</h5>
-                        <h6 class="text-muted">JavaScript &middot; jQuery</h6>
-                        <p class="card-text">
-                          A game where the user tries to match the value of
-                          crystal to another number given randomly.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/Crystal_Collector/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        <a
-                          href="https://dezrogers.github.io/Crystal_Collector"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-alt"></i
-                        ></a>
-                      </div>
+                  </div>
+                  <div class="card text-center mb-3">
+                    <img
+                      src="./assets/images/c8b40da1ddc436670cf49c8fab04fff1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Crystal Collector</h5>
+                      <h6 class="text-muted">JavaScript &middot; jQuery</h6>
+                      <p class="card-text">
+                        A game where the user tries to match the value of
+                        crystal to another number given randomly.
+                      </p>
+                      <a
+                        href="https://github.com/dezrogers/Crystal_Collector/"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://dezrogers.github.io/Crystal_Collector"
+                        target="_blank"
+                        class="card-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
                     </div>
                   </div>
                 </div>

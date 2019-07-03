@@ -23,7 +23,6 @@ a.nav-link {
 h1,
 .h1 {
   font-size: 4.2rem;
-  margin-top: 1.8rem;
 }
 
 h2,
@@ -57,6 +56,14 @@ p#head-symbol {
   color: darkgoldenrod;
   font-weight: 900;
   font-size: 1.5rem;
+}
+
+div.wrapper {
+  margin-top: 3rem;
+}
+
+div#resume {
+  margin: 3rem 0;
 }
 
 /* MEDIA QUERIES */
