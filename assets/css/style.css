@@ -16,6 +16,10 @@
   color: #777777;
 }
 
+a.nav-link {
+  font-size: medium;
+}
+
 h1,
 .h1 {
   font-size: 4.2rem;
@@ -58,23 +62,14 @@ p#head-symbol {
 /* MEDIA QUERIES */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .title {
-    margin-top: 3rem;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .title {
-    margin-top: 3rem;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .title {
-    margin-top: 3rem;
-  }
   #projects-wrapper {
     margin-top: 2rem;
   }
@@ -85,9 +80,6 @@ p#head-symbol {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .title {
-    margin-top: 3rem;
-  }
   #projects-wrapper {
     margin-top: 2rem;
   }
