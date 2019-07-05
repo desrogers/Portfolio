@@ -16,6 +16,11 @@
   color: #777777;
 }
 
+.navbar-toggler.custom-toggler {
+  border: none;
+  cursor: pointer;
+}
+
 a.nav-link {
   font-size: medium;
 }
