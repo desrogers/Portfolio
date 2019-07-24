@@ -46,7 +46,8 @@ i.fas {
 
 div.card i.fab,
 div.card i.fas {
-  font-size: 1.15em;
+  font-size: 1.5em;
+  margin-top: .5em;
 }
 
 i.fa-file-download {
@@ -69,6 +70,10 @@ div.wrapper {
 
 div#resume {
   margin: 3rem 0;
+}
+
+footer {
+  font-size: 85%;
 }
 
 /* MEDIA QUERIES */
