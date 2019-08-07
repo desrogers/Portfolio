@@ -242,14 +242,14 @@ sup {
 
 a {
   color: #1a1a1a;
-  text-decoration: none;
+  text-decoration: dotted;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   color: black;
-  text-decoration: underline;
+  text-decoration: dotted;
 }
 
 a:not([href]):not([tabindex]) {
