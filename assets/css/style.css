@@ -57,8 +57,9 @@ div.card i.fas {
 
 div#social-bar {
   position: fixed;
-  left: 0.5rem;
-  top: 5rem;
+  right: 1rem;
+  z-index: 1;
+  top: 11rem;
 }
 
 div#social-bar a:not(:last-child) {
