@@ -32,9 +32,39 @@ span#brand-statement-bar {
   cursor: pointer;
 }
 
+nav ul {
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+nav li {
+  display: table-cell; 
+  position: relative; 
+}
+
 a.nav-link {
   font-size: medium;
+  position: relative;
 }
+
+a.nav-link:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  border-bottom: 1px solid #000;
+  transition: width 0.4s ease 0s, left 0.4s ease 0s;
+}
+
+a.nav-link:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+
 
 h1#name {
   font-size: 4.6rem;
