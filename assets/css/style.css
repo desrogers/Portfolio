@@ -97,6 +97,10 @@ div#resume {
   margin: 3rem 0;
 }
 
+div#work .row {
+  margin: 5rem 0;
+}
+
 footer {
   background-color: #000000;
   color: rgb(184, 184, 184);
