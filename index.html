@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Desmond Rogers</title>
+    <title>Home | Desmond Rogers</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -55,67 +55,57 @@
 
   <body>
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <button
-                class="navbar-toggler custom-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbar1"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav mx-auto justify-content-center">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bolder text-uppercase"
-                      href="#about"
-                      >About</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link font-weight-bolder text-uppercase"
-                      href="#projects"
-                      >Projects</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </nav>
+      <div class="bg-dark collapse" id="navbarHeader" style>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">
+                Add some information about the album below, the author, or any
+                other background context. Make it a few sentences long so folks
+                can pick up some informative tidbits. Then, link them off to
+                some social networking sites or contact information.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div id="social-bar">
-        <a
-          href="http://linkedin.com/in/dezrogers"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            id="linkedin-icon"
-            src="./assets/images/linkedin.png"
-            alt="Linkedin"
-        /></a>
-        <a
-          href="http://github.com/dezrogers"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img src="./assets/images/github-logo.png" alt="Github"
-        /></a>
-        <a
-          href="mailto:desmondrogers2@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img src="./assets/images/mail.png" alt="Email"
-        /></a>
-      </div>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark py-1 mb-5 shadow-sm"
+      >
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar1"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav mx-auto justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link font-weight-bolder" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bolder" href="#projects"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
       <div class="container">
-        <div class="row mt-xs-4 my-xs-4 mt-md-5 my-md-5">
+        <div class="row my-xs-4 my-md-4">
           <div class="col-md-1"></div>
           <div class="col-md-10">
             <div class="row">
@@ -123,11 +113,39 @@
                 <img
                   src="./assets/images/photo2.jpg"
                   id="headshot"
-                  class="rounded-circle mx-auto d-block"
+                  class="shadow-lg rounded-circle mx-auto d-block"
                   alt="Headshot"
                 />
                 <h1 id="name">Desmond Rogers</h1>
-
+                <div id="social-bar">
+                  <a
+                    href="http://linkedin.com/in/dezrogers"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      id="linkedin-icon"
+                      src="./assets/images/linkedin.png"
+                      alt="Linkedin"
+                  /></a>
+                  <a
+                    href="http://github.com/dezrogers"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./assets/images/github.png" alt="Github"
+                  /></a>
+                  <a
+                    href="http://twitter.com/dezrogers_"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./assets/images/twitter.png" alt="Email"
+                  /></a>
+                  <a
+                    href="mailto:desmondrogers2@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="./assets/images/mail.png" alt="Email"
+                  /></a>
+                </div>
                 <div class="row mt-4">
                   <div class="col-sm"></div>
                   <div class="col-sm brand-statement lead">
@@ -135,11 +153,6 @@
                   </div>
                   <div class="col-sm"></div>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 text-center">
-                <p id="head-symbol">&#9974;</p>
               </div>
             </div>
             <div class="row mt-5">
@@ -150,35 +163,23 @@
                   </div>
                   <div>
                     <p>
-                      I'm a natural problem-solver with a love of learning and
-                      an entrepreneurial spirit. I get most excited when I have
-                      the opportunity to wear multiple hats and work where tech,
-                      art, and thought intersect.
+                      Currently, I'm preoccupied with taking on the challenge of
+                      becoming a true full-stack software engineer who can
+                      implement solutions on the front-end, back-end, in
+                      infrastructure, and wherever the lines between them might
+                      blur.
                     </p>
                     <p>
-                      Currently, I'm Managing Partner at
+                      Before deciding to get back into Tech, I was Managing
+                      Partner at
                       <a href="https://qualityxquantity.com" target="_blank"
                         >Quality x Quantity</a
-                      >, a Houston-based AV company, where we provide awesome
-                      live sound, lighting, and staging to local entertainers
-                      and event planners.
-                    </p>
-                    <p>
-                      Before QxQ, I spent 6 years in the military learning
-                      leadership skills and becoming highly skilled at
-                      troubleshooting while working as in IT.
-                    </p>
-                    <p>
-                      I'm also preoccupied with learning about and participating
-                      in the software development process while taking on
-                      challenges across the full stack, whether it involves work
-                      front-end, back-end, infrastructure, or support.
-                    </p>
-                    <p>
-                      Because of my experience I can understand difficult
-                      subjects quickly, and communicate effectively about
-                      business and technical topics to both engineers and people
-                      with a background that is nontechnical.
+                      >, an AV company based in Houston, TX, where we provided
+                      awesome live sound, lighting, and staging to local
+                      entertainers and event planners. And before QxQ, I was a
+                      System Administrator in the U.S. Navy, where I maintained
+                      servers on Windows networks and provided top-notch tech
+                      support to hundreds of users.
                     </p>
                   </div>
                 </div>
@@ -186,7 +187,7 @@
                   <div class="col-md-12">
                     <div class="text-center" id="resume">
                       <a
-                        class="btn btn-outline-primary"
+                        class="btn btn-outline-primary hvr-grow-shadow"
                         href="./assets/Desmond-Rogers-Developer.pdf"
                         >Resume</a
                       >
@@ -195,15 +196,11 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-12 text-center">
-                <p id="head-symbol">&#9974;</p>
-              </div>
-            </div>
+
             <div class="row">
               <div class="col-sm-12">
                 <div class="wrapper" id="projects">
-                  <div class="title">
+                  <div class="title text-center">
                     <h2>Projects</h2>
                   </div>
                   <div class="card-deck">
@@ -222,18 +219,24 @@
                         <p class="card-text">
                           App to help lost pets find their way home.
                         </p>
-                        <a
-                          href="https://github.com/dezrogers/skillworx"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
-                        <a
-                          href="https://skillworx.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <div class="btn-group">
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://github.com/dezrogers/skillworx"
+                              target="_blank"
+                              >Github</a
+                            >
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://skillworx.herokuapp.com/"
+                              target="_blank"
+                              >Launch</a
+                            >
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="card text-center mb-3">
@@ -250,18 +253,24 @@
                         <p class="card-text">
                           App to help lost pets find their way home.
                         </p>
-                        <a
-                          href="https://github.com/derekgeorg/project2"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
-                        <a
-                          href="https://straytx.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <div class="btn-group">
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://github.com/dezrogers/straytx"
+                              target="_blank"
+                              >Github</a
+                            >
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://straytx.herokuapp.com/"
+                              target="_blank"
+                              >Launch</a
+                            >
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -281,12 +290,16 @@
                           Official website for DJ Mr. Rogers, an award-winning
                           DJ and radio personality.
                         </p>
-                        <a
-                          href="https://djmrrogers.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <a
+                            class="btn btn-sm btn-outline-primary"
+                            href="https://djmrrogers.com/"
+                            target="_blank"
+                            >Launch</a
+                          >
+                        </div>
                       </div>
                     </div>
                     <div class="card text-center mb-3">
@@ -302,12 +315,16 @@
                           Landing page for Heist Agency, a Houston-based talent
                           management/marketing firm.
                         </p>
-                        <a
-                          href="https://heist.agency"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <a
+                            class="btn btn-sm btn-outline-primary"
+                            href="https://heist.agency"
+                            target="_blank"
+                            >Launch</a
+                          >
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -325,12 +342,18 @@
                           A Node.js app that gets info for concerts, songs,
                           movies. Inspired by SIRI.
                         </p>
-                        <a
-                          href="https://github.com/dezrogers/liri"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <div class="btn-group">
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://github.com/dezrogers/liri"
+                              target="_blank"
+                              >Github</a
+                            >
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="card text-center mb-3">
@@ -345,66 +368,18 @@
                         <p class="card-text">
                           A CLI storefront app inspired by Amazon.
                         </p>
-                        <a
-                          href="https://github.com/dezrogers/Bamazon"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-deck">
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/friends_1191883.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Friend Finder</h5>
-                        <h6 class="text-muted">Node.js &bull; Express.js &bull; API &bull; Heroku</h6>
-                        <p class="card-text">
-                          A compatibility-based "Friend Finder" app.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/friendfinder"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
-                        <a
-                          href="https://friend-finder-dzr.herokuapp.com/"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="card text-center mb-3">
-                      <img
-                        src="./assets/images/e8cb7b5558a03bbda7277a022478159e.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Film Trivia Quiz</h5>
-                        <h6 class="text-muted">JavaScript &bull; jQuery</h6>
-                        <p class="card-text">
-                          A timed multiple-choice trivia game.
-                        </p>
-                        <a
-                          href="https://github.com/dezrogers/TriviaGame"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fab fa-github-square"></i
-                        ></a>
-                        <a
-                          href="https://dezrogers.github.io/TriviaGame"
-                          target="_blank"
-                          class="card-link"
-                          ><i class="fas fa-external-link-square-alt"></i
-                        ></a>
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <div class="btn-group">
+                            <a
+                              class="btn btn-sm btn-outline-primary"
+                              href="https://github.com/dezrogers/Bamazon"
+                              target="_blank"
+                              >Github</a
+                            >
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -416,6 +391,17 @@
         </div>
       </div>
     </main>
-    <footer class="text-center text-muted mb-2"></footer>
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="float-right">
+              <a href="#" class="font-weight-bold">^Back to top</a>
+            </p>
+            <p class="font-weight-bold">© 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
