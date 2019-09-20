@@ -1,9 +1,9 @@
+/*----Fonts----*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Bitter&display=swap');
+
 * {
   box-sizing: border-box;
-}
-
-body {
-  line-height: 200%;
 }
 
 /* general */
@@ -16,20 +16,6 @@ body {
 }
 
 /* main */
-p.brand-statement {
-  color: #777777;
-}
-
-div > img#headshot {
-  height: 40%;
-  margin: 2em 0 3em 0;
-  /* opacity: 0.5; */
-  /* border-radius: 50%; */
-}
-
-span#brand-statement-bar {
-  margin: 0 2em;
-}
 
 .navbar-toggler.custom-toggler {
   border: none;
@@ -47,34 +33,38 @@ nav ul {
 nav li {
   display: table-cell; 
   position: relative; 
+  font-family: "Montserrat", sans-serif;
 }
 
-
-/* 
-a.nav-link {
-  position: relative;
+div > img#headshot {
+  height: 40%;
+  margin: 1em 0 3em 0;
+  /* opacity: 0.5; */
+  /* border-radius: 50%; */
 }
-
-a.nav-link:after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  border-bottom: 1px solid #d2d2d2;
-  transition: width 0.4s ease 0s, left 0.4s ease 0s;
-}
-
-a.nav-link:hover:after {
-  width: 100%; 
-  left: 0; 
-} 
-*/
-
 
 h1#name {
-  font-size: 3.6rem;
-  margin-bottom: 1rem;
+  font-family: "Bitter", sans-serif;
+  font-size: 2.6rem;
+  font-weight: bolder;
+  margin-bottom: 2.5rem;
+}
+
+p.brand-statement {
+  color: #777777;
+}
+
+span#brand-statement-bar {
+  margin: 0 2em;
+}
+
+#about,
+#work {
+  line-height: 200%;
+}
+
+.title {
+  font-family: "Montserrat";
 }
 
 h2,
@@ -83,12 +73,6 @@ h2,
   line-height: 3rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-}
-
-div.card i.fab,
-div.card i.fas {
-  font-size: 1.7em;
-  margin-top: 0.5em;
 }
 
 div#social-bar {
@@ -105,11 +89,6 @@ div#social-bar img{
 }
 
 
-p {
-  margin-top: 1.5rem;
-}
-
-
 div.wrapper {
   margin-top: 3rem;
 }
@@ -119,8 +98,27 @@ div#resume {
 }
 
 footer {
-  font-size: 85%;
+  background-color: #000000;
+  color: rgb(184, 184, 184);
 }
+
+footer p, 
+footer a,
+footer small {
+  margin: 0;
+  color: rgb(184, 184, 184);
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+#footer-name {
+  font-weight: bolder;
+  font-size: 120%;
+  margin: 0;
+}
+
 
 /* Float */
 .hvr-float {
@@ -139,6 +137,10 @@ footer {
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
 }
 
 /* Grow Shadow */
@@ -175,7 +177,7 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #projects {
+  #work {
     margin-top: 2rem;
   }
 }
@@ -185,7 +187,7 @@ footer {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  #projects {
-    margin-top: 2rem;
+  #work {
+    margin-top: 7rem;
   }
 }
